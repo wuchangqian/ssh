@@ -1,0 +1,316 @@
+#########################################
+#########################################
+######################################### 通用设置开始
+HOST *
+    TCPKeepAlive yes 
+    #User root
+    IdentityFile ~/.ssh/id_rsa
+#########################################
+#########################################
+######################################### 通用设置结束
+############
+#121.41.15.74 
+HOST 148
+    User root
+    Port 22
+    Hostname 114.55.4.148
+############
+HOST 74
+    User root
+    Port 22
+    Hostname 121.41.15.74
+HOST edx
+    User root
+    Port 22
+    Hostname 120.26.125.62
+
+############
+HOST lckj
+    User root
+    Port 12345
+    Hostname 115.231.174.231
+
+############
+HOST lh
+    User root
+    Port 22
+    Hostname 112.124.97.220
+
+############
+HOST lh2
+    User root
+    Port 22
+    Hostname 47.89.30.115
+
+############
+HOST yj
+    User root
+    Port 20002
+    Hostname 111.50.3.133
+
+############
+HOST k2
+    User root
+    Port 22
+    Hostname 120.26.61.0
+############
+
+HOST git
+    User root
+    Port 22
+    Hostname 120.55.182.39
+
+############
+HOST k1
+    User root
+    Port 22
+    Hostname 120.55.182.39
+
+############
+HOST sd1
+    User root
+    Port 12345
+    Hostname 119.37.197.21
+
+############
+HOST sd2
+    User root
+    Port 12345
+    Hostname  119.37.197.22
+
+############ 192.168.10.8
+HOST 8
+    User root
+    Port 12345
+    Hostname 192.168.10.8
+############ 192.168.10.23
+HOST 23
+    User root
+    Port 12345
+    Hostname 192.168.10.23
+############ 192.168.10.25 存储
+HOST nas
+    User root
+    Port 22
+    Hostname 192.168.10.25
+############ 208
+HOST 208
+    User root
+    Port 22
+    Hostname 121.40.145.208
+############ 187
+HOST 187 
+    User root
+    Port 12345
+    Hostname 202.91.244.187
+############ test 
+HOST test
+    User root
+    Port 22
+    Hostname 192.168.13.15
+############ kuaiyu 
+HOST kuaiyu
+    User root
+    Port 2222
+    Hostname 115.238.45.10
+############ aliyun
+HOST aliyun
+    User root
+    Port 12345
+    Hostname 121.40.125.156
+############ 28 
+HOST 28 
+    User root
+    Port 12345
+    Hostname 115.29.28.28
+############ 101
+HOST 101
+    User root
+    Port 12345
+    Hostname 121.40.18.101
+############ 235
+HOST 235 
+    User root
+    Port  22
+    Hostname 120.26.200.235
+#########################################
+#########################################
+######################################### 趣看服务器开始
+#########################################
+#########################################
+############ qk_rtmpush_1
+HOST push1 
+    User root
+    Port 22
+    Hostname 121.40.248.56
+############ qk_rtmpush_2
+HOST push2 
+    User root
+    Port 22
+    Hostname 120.26.137.68
+############ qk_ctrl_1
+HOST ctrl1 
+    User root
+    Port 22
+    Hostname 121.40.223.70
+############ qk_ctrl_2
+HOST ctrl2 
+    User root
+    Port 22
+    Hostname 121.40.238.81
+############ qk_java_1
+HOST java1 
+    User root
+    Port 22
+    Hostname 121.43.111.69
+############ qk_java_2
+HOST java2 
+    User root
+    Port 22
+    Hostname 121.40.248.47
+############ qk_writer_1
+HOST writer1 
+    User root
+    Port 22
+    Hostname 121.40.192.208
+############ qk_write_2
+HOST writer2 
+    User root
+    Port 22
+    Hostname 121.43.111.30
+############ qk_ppt_1
+HOST ppt1 
+    User root
+    Port 22
+    Hostname 121.43.111.61
+############ qk_ppt_2
+HOST ppt2 
+    User root
+    Port 22
+    Hostname 121.43.112.128
+############ qk_filetrans_1
+HOST ft1 
+    User root
+    Port 22
+    Hostname 121.40.119.124
+############ qk_filetrans_2
+HOST ft2 
+    User root
+    Port 22
+    Hostname 121.40.237.222
+############ qk_recordist_1
+HOST rd1 
+    User root
+    Port 22
+    Hostname 121.40.116.32
+############ qk_recordist_2
+HOST rd2 
+    User root
+    Port 22
+    Hostname 121.43.110.216
+############ qk_audiotrans_1  音频转换
+HOST at1 
+    User root
+    Port 22
+    Hostname 120.26.206.226
+############ qk_audiotrans_2 音频转换
+HOST at2 
+    User root
+    Port 22
+    Hostname 121.40.224.151
+############ qk_livedist_1
+HOST live1 
+    User root
+    Port 22
+    Hostname 121.43.111.83
+############ qk_livedist_2
+HOST live2
+    User root
+    Port 22
+    Hostname 121.40.128.238
+############ qk_livedist_3
+HOST live3 
+    User root
+    Port 22
+    Hostname 121.40.118.63
+############ qk_livedist_4
+HOST live4 
+    User root
+    Port 22
+    Hostname 121.40.228.253
+#########################################
+#########################################
+######################################### 趣看服务器介绍
+#########################################
+#########################################
+#
+
+## ipei项目的5台服务器
+
+############ 录播服务器
+HOST lb
+    User root
+    Port 12345
+    Hostname 119.37.197.21
+############ mcu1
+HOST m1
+    User root
+    Port 12345
+    Hostname 119.37.197.22
+############ mcu1
+HOST m22
+    User root
+    Port 22
+    Hostname 119.37.197.28
+HOST m21 m2
+    User root
+    Port 12345
+    Hostname 119.37.197.28
+############ mcu1
+HOST m31 m3
+    User root
+    Port 12345
+    Hostname 119.37.197.29
+HOST m32
+    User root
+    Port 22
+    Hostname 119.37.197.29
+############ mcu1
+HOST m41 m4
+    User root
+    Port 12345
+    Hostname 119.37.197.30
+HOST m42
+    User root
+    Port 22
+    Hostname 119.37.197.30
+
+########################################
+########################################
+######################################## live web服务器
+########################################
+############ live
+HOST live
+    User root
+    Port 12345
+    Hostname 121.40.195.95
+
+########################################
+########################################
+
+############ live
+HOST hyj1
+    User y01
+    Port 36987
+    Hostname 183.129.244.16
+
+############ 内网的测试服务器
+HOST 99
+    User root
+    Port 22
+    Hostname 192.168.10.99
+############ 内网的测试服务器
+HOST 105
+    User root
+    Port 22
+    Hostname 192.168.3.105
