@@ -250,7 +250,7 @@ HOST live4
 ############ 录播服务器
 HOST lb
     User root
-    Port 12345
+    Port 12346
     Hostname 119.37.197.21
 ############ mcu1
 HOST m1
