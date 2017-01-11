@@ -314,3 +314,10 @@ HOST 105
     User root
     Port 22
     Hostname 192.168.3.105
+############ 上海的一个朋友（七牛云)
+HOST qn
+    User root
+    Port 22
+    Hostname 123.206.175.28
+
+
