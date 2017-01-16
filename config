@@ -320,4 +320,9 @@ HOST qn
     Port 22
     Hostname 123.206.175.28
 
+############ azure ubuntu 测试机子
+HOST qn
+    User azureuser
+    Port 22
+    Hostname hwotuubuntu001.chinacloudapp.cn
 
