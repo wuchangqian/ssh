@@ -327,3 +327,51 @@ HOST az1
     Hostname hwotuubuntu001.chinacloudapp.cn
 
 ########################################
+############ v234
+HOST v234
+    User root
+    Port 22
+    Hostname 192.168.13.234
+
+############ v235
+HOST v235
+    User root
+    Port 22
+    Hostname 192.168.13.235
+
+############ v236
+HOST v236
+    User root
+    Port 22
+    Hostname 192.168.13.236
+
+############ v237
+HOST v237
+    User root
+    Port 22
+    Hostname 192.168.13.237
+
+
+############ v238
+HOST v238
+    User root
+    Port 22
+    Hostname 192.168.13.238
+
+############ v239
+HOST v239
+    User root
+    Port 22
+    Hostname 192.168.13.239
+
+############ v240
+HOST v240
+    User root
+    Port 22
+    Hostname 192.168.13.240
+
+############ v241
+HOST v241
+    User root
+    Port 22
+    Hostname 192.168.13.241
