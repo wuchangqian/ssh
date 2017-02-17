@@ -118,11 +118,23 @@ HOST aliyun
     User root
     Port 12345
     Hostname 121.40.125.156
+#
+#######多方服务器
 ############ 28 
-HOST 28 
+HOST df28 
     User root
     Port 12345
     Hostname 115.29.28.28
+############ 28 
+HOST df27 
+    User root
+    Port 22
+    Hostname 118.178.131.27
+############ 28 
+HOST df148 
+    User root
+    Port 22
+    Hostname 114.55.4.148
 ############ 101
 HOST 101
     User root
