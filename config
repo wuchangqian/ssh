@@ -4,7 +4,7 @@
 HOST *
     TCPKeepAlive yes 
     #User root
-    IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/id_rsa_new
 #########################################
 #########################################
 ######################################### 通用设置结束
