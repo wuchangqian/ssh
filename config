@@ -45,7 +45,7 @@ HOST lh2
 ############
 HOST yj
     User root
-    Port 20002
+    Port 22
     Hostname 111.50.3.133
 
 ############
