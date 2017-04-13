@@ -140,6 +140,11 @@ HOST 101
     User root
     Port 12345
     Hostname 121.40.18.101
+############ a101
+HOST a101
+    User apache
+    Port 12345
+    Hostname 121.40.18.101
 ############ 235
 HOST 235 
     User root
