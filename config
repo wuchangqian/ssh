@@ -9,6 +9,11 @@ HOST *
 #########################################
 ######################################### 通用设置结束
 ############
+HOST mail
+    User root
+    Port 22
+    Hostname 120.55.82.242
+
 #121.41.15.74 
 HOST 148
     User root
@@ -116,6 +121,12 @@ HOST kuaiyu
 ############ aliyun
 HOST aliyun
     User root
+    Port 12345
+    Hostname 121.40.125.156
+#
+############ aliyun
+HOST aliyunwww
+    User www
     Port 12345
     Hostname 121.40.125.156
 #
@@ -344,6 +355,12 @@ HOST az1
     Hostname hwotuubuntu001.chinacloudapp.cn
 
 ########################################
+############ v233
+HOST v233
+    User root
+    Port 22
+    Hostname 192.168.13.233
+
 ############ v234
 HOST v234
     User root
@@ -392,3 +409,20 @@ HOST v241
     User root
     Port 22
     Hostname 192.168.13.241
+############ 191
+HOST 191
+    User root
+    Port 22
+    Hostname 120.27.213.191
+
+############ xcj
+HOST xcj
+    User root
+    Port 12345
+    Hostname 120.25.157.223
+
+############ xcj
+HOST xcjwww
+    User www
+    Port 12345
+    Hostname 120.25.157.223
