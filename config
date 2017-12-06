@@ -2,19 +2,30 @@
 #########################################
 ######################################### 通用设置开始
 HOST *
-    TCPKeepAlive yes 
-    #User root
+    TCPKeepAlive yes
+    User root
     IdentityFile ~/.ssh/id_rsa_new
 #########################################
 #########################################
 ######################################### 通用设置结束
 ############
+
+Host ftp
+    Hostname qxu1590360115.my3w.com
+    Port 22
+    User qxu1590360115
+######## 114260 控制台登录的密码
+Host me
+    Hostname 101.132.124.54
+    User root
+    Port 12345
+########## mail
 HOST mail
     User root
-    Port 22
+    Port 10022
     Hostname 120.55.82.242
 
-#121.41.15.74 
+#121.41.15.74
 HOST 148
     User root
     Port 22
@@ -104,16 +115,16 @@ HOST 208
     Port 22
     Hostname 121.40.145.208
 ############ 187
-HOST 187 
+HOST 187
     User root
     Port 12345
     Hostname 202.91.244.187
-############ test 
+############ test
 HOST test
     User root
     Port 22
     Hostname 192.168.13.15
-############ kuaiyu 
+############ kuaiyu
 HOST kuaiyu
     User root
     Port 2222
@@ -131,18 +142,23 @@ HOST aliyunwww
     Hostname 121.40.125.156
 #
 #######多方服务器
-############ 28 
-HOST df28 
+############ df
+HOST df
+    User root
+    Port 22
+    Hostname 39.107.13.219
+############ 28
+HOST df28
     User root
     Port 12345
     Hostname 115.29.28.28
-############ 28 
-HOST df27 
+############ 28
+HOST df27
     User root
     Port 22
     Hostname 118.178.131.27
-############ 28 
-HOST df148 
+############ 28
+HOST df148
     User root
     Port 22
     Hostname 114.55.4.148
@@ -157,7 +173,7 @@ HOST a101
     Port 12345
     Hostname 121.40.18.101
 ############ 235
-HOST 235 
+HOST 235
     User root
     Port  22
     Hostname 120.26.200.235
@@ -167,87 +183,87 @@ HOST 235
 #########################################
 #########################################
 ############ qk_rtmpush_1
-HOST push1 
+HOST push1
     User root
     Port 22
     Hostname 121.40.248.56
 ############ qk_rtmpush_2
-HOST push2 
+HOST push2
     User root
     Port 22
     Hostname 120.26.137.68
 ############ qk_ctrl_1
-HOST ctrl1 
+HOST ctrl1
     User root
     Port 22
     Hostname 121.40.223.70
 ############ qk_ctrl_2
-HOST ctrl2 
+HOST ctrl2
     User root
     Port 22
     Hostname 121.40.238.81
 ############ qk_java_1
-HOST java1 
+HOST java1
     User root
     Port 22
     Hostname 121.43.111.69
 ############ qk_java_2
-HOST java2 
+HOST java2
     User root
     Port 22
     Hostname 121.40.248.47
 ############ qk_writer_1
-HOST writer1 
+HOST writer1
     User root
     Port 22
     Hostname 121.40.192.208
 ############ qk_write_2
-HOST writer2 
+HOST writer2
     User root
     Port 22
     Hostname 121.43.111.30
 ############ qk_ppt_1
-HOST ppt1 
+HOST ppt1
     User root
     Port 22
     Hostname 121.43.111.61
 ############ qk_ppt_2
-HOST ppt2 
+HOST ppt2
     User root
     Port 22
     Hostname 121.43.112.128
 ############ qk_filetrans_1
-HOST ft1 
+HOST ft1
     User root
     Port 22
     Hostname 121.40.119.124
 ############ qk_filetrans_2
-HOST ft2 
+HOST ft2
     User root
     Port 22
     Hostname 121.40.237.222
 ############ qk_recordist_1
-HOST rd1 
+HOST rd1
     User root
     Port 22
     Hostname 121.40.116.32
 ############ qk_recordist_2
-HOST rd2 
+HOST rd2
     User root
     Port 22
     Hostname 121.43.110.216
 ############ qk_audiotrans_1  音频转换
-HOST at1 
+HOST at1
     User root
     Port 22
     Hostname 120.26.206.226
 ############ qk_audiotrans_2 音频转换
-HOST at2 
+HOST at2
     User root
     Port 22
     Hostname 121.40.224.151
 ############ qk_livedist_1
-HOST live1 
+HOST live1
     User root
     Port 22
     Hostname 121.43.111.83
@@ -257,12 +273,12 @@ HOST live2
     Port 22
     Hostname 121.40.128.238
 ############ qk_livedist_3
-HOST live3 
+HOST live3
     User root
     Port 22
     Hostname 121.40.118.63
 ############ qk_livedist_4
-HOST live4 
+HOST live4
     User root
     Port 22
     Hostname 121.40.228.253
@@ -409,6 +425,17 @@ HOST v241
     User root
     Port 22
     Hostname 192.168.13.241
+############ v242
+HOST v242
+    User root
+    Port 22
+    Hostname 192.168.13.242
+############ v243
+HOST v243
+    User root
+    Port 22
+    Hostname 192.168.13.243
+
 ############ 191
 HOST 191
     User root
