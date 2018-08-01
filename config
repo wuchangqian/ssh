@@ -3,13 +3,20 @@
 ######################################### 通用设置开始
 HOST *
     TCPKeepAlive yes
-    User root
     IdentityFile ~/.ssh/id_rsa_new
 #########################################
 #########################################
 ######################################### 通用设置结束
 ############
-
+Host cf
+    Hostname learn.busionline.com
+    Port 12345
+    User apache
+    IdentityFile ~/.ssh/chenfeng.id_rsa
+Host 111
+    Hostname learn.busionline.com
+    Port 12345
+    User apache
 Host ftp
     Hostname qxu1590360115.my3w.com
     Port 22
@@ -39,37 +46,6 @@ HOST edx
     User root
     Port 22
     Hostname 120.26.125.62
-
-############
-HOST lckj
-    User root
-    Port 12345
-    Hostname 115.231.174.231
-
-############
-HOST lh
-    User root
-    Port 22
-    Hostname 112.124.97.220
-
-############
-HOST lh2
-    User root
-    Port 22
-    Hostname 47.89.30.115
-
-############
-HOST yj
-    User root
-    Port 22
-    Hostname 111.50.3.133
-
-############
-HOST k2
-    User root
-    Port 22
-    Hostname 120.26.61.0
-############
 
 HOST git
     User root
@@ -108,7 +84,7 @@ HOST 23
 HOST nas
     User root
     Port 22
-    Hostname 192.168.10.25
+    Hostname 192.168.13.11
 ############ 208
 HOST 208
     User root
@@ -119,16 +95,6 @@ HOST 187
     User root
     Port 12345
     Hostname 202.91.244.187
-############ test
-HOST test
-    User root
-    Port 22
-    Hostname 192.168.13.15
-############ kuaiyu
-HOST kuaiyu
-    User root
-    Port 2222
-    Hostname 115.238.45.10
 ############ aliyun
 HOST aliyun
     User root
@@ -141,6 +107,17 @@ HOST aliyunwww
     Port 12345
     Hostname 121.40.125.156
 #
+############ wotutest
+HOST test
+    User root
+    Port 12345
+    Hostname 47.96.150.145
+
+############ wotutestwww
+HOST testwww
+    User www
+    Port 12345
+    Hostname 47.96.150.145
 #######多方服务器
 ############ df
 HOST df
@@ -262,26 +239,6 @@ HOST at2
     User root
     Port 22
     Hostname 121.40.224.151
-############ qk_livedist_1
-HOST live1
-    User root
-    Port 22
-    Hostname 121.43.111.83
-############ qk_livedist_2
-HOST live2
-    User root
-    Port 22
-    Hostname 121.40.128.238
-############ qk_livedist_3
-HOST live3
-    User root
-    Port 22
-    Hostname 121.40.118.63
-############ qk_livedist_4
-HOST live4
-    User root
-    Port 22
-    Hostname 121.40.228.253
 #########################################
 #########################################
 ######################################### 趣看服务器介绍
@@ -333,42 +290,22 @@ HOST m42
 ########################################
 ######################################## live web服务器
 ########################################
-############ live
-HOST live
-    User root
-    Port 12345
-    Hostname 121.40.195.95
 
-########################################
-########################################
-
-############ live
-HOST hyj1
-    User y01
-    Port 36987
-    Hostname 183.129.244.16
-
+############ 本机hyper-v 装的ubuntu-18.04
+HOST u
+    User wcq
+    Port 22
+    Hostname 172.20.130.229
 ############ 内网的测试服务器
-HOST 99
+HOST bsd
     User root
     Port 22
-    Hostname 192.168.10.99
+    Hostname 192.168.13.106
 ############ 内网的测试服务器
 HOST 105
     User root
     Port 22
     Hostname 192.168.3.105
-############ 上海的一个朋友（七牛云)
-HOST qn
-    User root
-    Port 22
-    Hostname 123.206.175.28
-
-############ azure ubuntu 测试机子
-HOST az1
-    User azureuser
-    Port 22
-    Hostname hwotuubuntu001.chinacloudapp.cn
 
 ########################################
 ############ v233
@@ -453,3 +390,14 @@ HOST xcjwww
     User www
     Port 12345
     Hostname 120.25.157.223
+
+############ zd
+HOST zd
+    User root
+    Port 22
+    Hostname 10.203.7.11
+############ zd
+HOST t
+    User root
+    Port 12345
+    Hostname 222.184.35.234 
